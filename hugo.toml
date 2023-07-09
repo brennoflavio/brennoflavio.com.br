@@ -1,0 +1,45 @@
+baseURL = "https://brennoflavio.com.br"
+title = "Brenno Flavio"
+theme = "gokarna"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
+pygmentsStyle = "monokai"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    pre = "<span data-feather='book'></span>"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Projects"
+    pre = "<span data-feather='code'></span>"
+    url = "/projects/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "rss"
+    pre = "<span data-feather='rss'></span>"
+    url = "/index.xml"
+    weight = 7
+
+  [params]
+    socialIcons = [
+      {name = "instagram", url = "https://www.instagram.com/brennoflavio/"},
+      {name = "email", url = "mailto:contato@brennoflavio.com.br"},
+      {name = "github", url = "https://github.com/brennoflavio/"},
+      {name = "linkedin", url = "https://www.linkedin.com/in/brenno-flavio/"},
+    ]
+
+    avatarURL = "/images/avatar.jpeg"
+    AvatarAltText = "avatar"
+    avatarSize = "size-m"
