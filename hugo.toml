@@ -26,12 +26,6 @@ pygmentsStyle = "monokai"
     url = "/projects/"
     weight = 3
 
-  [[menu.main]]
-    identifier = "rss"
-    pre = "<span data-feather='rss'></span>"
-    url = "/index.xml"
-    weight = 7
-
   [params]
     socialIcons = [
       {name = "instagram", url = "https://www.instagram.com/brennoflavio/"},
@@ -43,3 +37,5 @@ pygmentsStyle = "monokai"
     avatarURL = "/images/avatar.jpeg"
     AvatarAltText = "avatar"
     avatarSize = "size-m"
+    # description = "Sky above, sand below & peace within"
+    # showPostsOnHomePage = "recent"

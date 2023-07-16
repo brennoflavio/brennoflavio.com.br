@@ -5,16 +5,16 @@ type: page
 
 ### Summary
 
-- [Scanly](/projects#scanly)
-- [Crossmint](/projects#crossmint)
-- [Classdojo](/projects#classdojo)
-- [Safari.ai](/projects#safariai)
-- [Clever Harvest](/projects#clever-harvest)
-- [Charm](/projects#charm)
-- [Fulfilment by Everyone](/projects#fulfillment-by-everyone)
-- [Insurita](/projects#insurita)
-- [Confere](/projects#confere)
-- [Stone](/projects#stone)
+- [Scanly (2023)](/projects#scanly)
+- [Crossmint (2022-2023)](/projects#crossmint)
+- [Classdojo (2022)](/projects#classdojo)
+- [Safari.ai (2022)](/projects#safariai)
+- [Clever Harvest (2021-2022)](/projects#clever-harvest)
+- [Charm (2021)](/projects#charm)
+- [Fulfilment by Everyone (2021)](/projects#fulfillment-by-everyone)
+- [Insurita (2020-2021)](/projects#insurita)
+- [Confere (2019-2020)](/projects#confere)
+- [Stone (2017-2019)](/projects#stone)
 
 #    Scanly
 
