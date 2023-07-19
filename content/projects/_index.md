@@ -96,7 +96,7 @@ As the Manager at YosemiteLabs for the Clever Harvest project, I oversaw the dev
 
 **Key Result:** Saved $5000 / month on their AWS bill
 
-**Tech used:** Python (Flask), Terraform, AWS (EC2 + DynamoDB)
+**Tech used:** Python (Django), Terraform, AWS (EC2 + DynamoDB)
 
 In my role as an Infrastructure Consultant for YosemiteLabs' Charm project, I focused on optimizing and modernizing their infrastructure. Charm specializes in developing AI models for direct-to-customer brands by scraping data from various channels, like social media and eccomerce websites. My responsibilities involved reviewing and enhancing the infrastructure for cost savings and documentation. Notably, I successfully reduced their AWS bill by $5000 a month (a 30% cost reduction) through code improvements, efficient data fetching, and strategic database changes. I also implemented Terraform to provide a comprehensive overview of the deployed infrastructure. Additionally, I optimized their ElasticSearch instance, resulting in improved app performance by reducing CPU usage during JSON parsing.
 
