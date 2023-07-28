@@ -5,17 +5,17 @@ draft: false
 type: post
 ---
 
-If you use Truenas Core and like to self host stuff, you'll probaly encountered some software
-that simply does not play well with FreeBSD, or even compile for it. Most software are written
-with Linux in mind, and some of them requires modifications to run on Truenas.
+If you use Truenas Core and like to self-host stuff, you'll probably encounter some software
+that simply does not play well with FreeBSD, or even compile for it. Most software is written
+with Linux in mind, and some of them require modifications to run on Truenas.
 
-Some may say "Just use Trunenas Scale instead" but in my expeirence I could never get the stability
+Some may say "Just use Trunenas Scale instead" but in my experience, I could never get the stability
 of FreeBSD on the Debian variant. Kubernetes was failing often and recovery from a failure proved to be
-much harder. As my primary use is file hosting and Nextcloud, I'd rather to spin up VM's than using
+much harder. As my primary use is file hosting and Nextcloud, I'd rather spin up VMs than using
 Truenas Scale.
 
-After going trought many tutorials and combining informations to self host Lemmy (which took a good amount of time),
-I decided to write this post to share a more consise way to get it working (and for me to not forget aswell).
+After going through many tutorials and combining pieces of information to self host Lemmy (which took a good amount of time),
+I decided to write this post to share a more concise way to get it working (and for me to not forget as well).
 
 ## My architecture
 
@@ -30,9 +30,9 @@ Lemmy itself is composed of some components:
 - Lemmy-ui
 - Nginx
 
-So we'll be covering each of those components in the sections bellow.
+So we'll be covering each of those components in the sections below.
 
-Note: This installation does not cover pictrs, if I ever need it I'll add later.
+Note: This installation does not cover pictrs, if I ever need it I'll add it later.
 
 ## Creating the Jail
 
@@ -303,7 +303,7 @@ sockstat -l4 -P tcp
 ## Lemmy-ui
 
 Here we'll be dealing with Javascript packages. Some of them will fail when you run this command. Please read
-the output, and for optional dependencies you can ignore it, but some will ask you to install some packages manually,
+the output, and for optional dependencies you can ignore them, but some will ask you to install some packages manually,
 do that and retry the installation step.
 
 First lets go to the root directory:
@@ -409,9 +409,9 @@ Change its configuration file:
 nano /usr/local/etc/nginx/nginx.conf
 ```
 
-We'll use a modified version of the `nginx_internal.conf` located in the docker repository. Basically we're excluding
-lemmy backend port from nginx and changing the upstream services to localhost.
-Here's the one I use. You can delete the default one and replace with this:
+We'll use a modified version of the `nginx_internal.conf` located in the docker repository. Basically, we're excluding
+Lemmy backend port from nginx and changing the upstream services to localhost.
+Here's the one I use. You can delete the default one and replace it with this:
 ```
 worker_processes auto;
 
@@ -595,8 +595,8 @@ should match the one defined in the Nginx confitguration done before.
 
 ## Conclusion
 
-That's it! Now you can access `https://<your domain>` and configure your Lemmy instance. You'll probably want to disable registration
-to prevent your instance being hammered by bots, or if you plan to keep it open, edit your `lemmy.hjson` file to add a email server and
+That's it! Now you can access `https://<your domain>` and configure your Lemmy instance. You'll probably want to disable the registration
+to prevent your instance from being hammered by bots, or if you plan to keep it open, edit your `lemmy.hjson` file to add an email server and
 require email confirmations.
 
 You should also think about:
@@ -605,8 +605,8 @@ You should also think about:
 - PICRTS
 
 Some gotchas and considerations that I noticed:
-- Probably notifications won't work because your instance won't have the actitivies you're making on other instances, like lemmy.world
-- To use it on Android, I reccomend Thunder. You can find it on F-droid
-- Obviously you won't be anonymus with this approach, as you're tying a instance to your domain, that will reveal your ip, etc.
+- Probably notifications won't work because your instance won't have the activities you're making on other instances, like `lemmy.world`
+- To use it on Android, I recommend Thunder. You can find it on F-droid
+- You won't be anonymous with this approach, as you're tying an instance to your domain, that will reveal your IP, etc.
 
 Thanks!
