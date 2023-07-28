@@ -605,8 +605,13 @@ You should also think about:
 - PICRTS
 
 Some gotchas and considerations that I noticed:
-- Probably notifications won't work because your instance won't have the activities you're making on other instances, like `lemmy.world`
-- To use it on Android, I recommend Thunder. You can find it on F-droid
-- You won't be anonymous with this approach, as you're tying an instance to your domain, that will reveal your IP, etc.
-
+- Notifications won't work because most of the time you'll be iteracting to other instances (like `lemmy.world`), and lemmy only sends notifications
+from communities created in your home instance.
+- To use it on Android, I recommend Thunder. [You can find](https://apt.izzysoft.de/fdroid/index/apk/com.hjiangsu.thunder) it on IzzyOnDroid F-droid Repo
+- You won't be anonymous with this approach, as you're tying an instance to your domain, that will reveal your IP, some personal information, etc.
+- Some features are not federated. Which means that clients will show incorrect numbers when using this approach. For example, subscriber count
+is for your instance only (not across instances), so you'll see all communities with 1 subscriber (you). This is true for any instance.
 Thanks!
+- To find communities, go to a huge public instance and search from there. Then copy the community id (`!community@lemmy-server`) and paste in your instance search.
+Your instance won't find anything at the begginging becuase it does not know other servers. You'll need to use another server to find content, at least intially.
+I use `https://lemmy.world`
