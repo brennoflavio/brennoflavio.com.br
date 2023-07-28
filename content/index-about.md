@@ -8,4 +8,4 @@
 [**View more**](/projects)
 
 ### Latest Posts
-[I'm opening my Searx instance](/posts/searx)
+[How to install Lemmy on FreeBSD/Truenas Jail](/posts/lemmy-freebsd)
