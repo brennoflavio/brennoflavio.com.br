@@ -605,8 +605,8 @@ You should also think about:
 - PICRTS
 
 Some gotchas and considerations that I noticed:
-- Notifications won't work because most of the time you'll be iteracting to other instances (like `lemmy.world`), and lemmy only sends notifications
-from communities created in your home instance.
+- ~~Notifications won't work because most of the time you'll be iteracting to other instances (like `lemmy.world`), and lemmy only sends notifications
+from communities created in your home instance.~~ Not true, notifications work as expected.
 - To use it on Android, I recommend Thunder. [You can find](https://apt.izzysoft.de/fdroid/index/apk/com.hjiangsu.thunder) it on IzzyOnDroid F-droid Repo
 - You won't be anonymous with this approach, as you're tying an instance to your domain, that will reveal your IP, some personal information, etc.
 - Some features are not federated. Which means that clients will show incorrect numbers when using this approach. For example, subscriber count
