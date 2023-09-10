@@ -8,4 +8,4 @@
 [**View more**](/projects)
 
 ### Latest Posts
-[How to install Lemmy on FreeBSD/Truenas Jail](/posts/lemmy-freebsd)
+[Simple Monitioring tool for URLs using SMTP](/posts/simple-smtp-monitoring)
