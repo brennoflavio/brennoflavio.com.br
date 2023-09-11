@@ -11,7 +11,7 @@ After getting frustrated that [Kuma](https://github.com/louislam/uptime-kuma), a
 applications cannot run on FreeBSD due to [unsupported Node dependencies](https://github.com/microsoft/playwright/issues/20330),
 I decided to write a simple Python script to check some of my services and email me in case I'm wrong.
 
-This script only uses the standard library, so it should be super simple to do. Just make sure your python
+This script only uses the standard library, so it should be able to run in any environment. Just make sure your python
 distribution have sqlite support, fill in the configuration file and run it using cron job.
 
 I configure the jobs the following way (in a freebsd jail):
