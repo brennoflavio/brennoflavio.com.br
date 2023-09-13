@@ -7,5 +7,5 @@
 
 [**View more**](/projects)
 
-### Latest Posts
-[Simple Monitioring tool for URLs using SMTP](/posts/simple-smtp-monitoring)
+### Latest Post
+[How to run Invidious in a FreeBSD Jail](/posts/invidious-freebsd)
