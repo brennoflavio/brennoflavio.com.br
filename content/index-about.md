@@ -8,4 +8,4 @@
 [**View more**](/projects)
 
 ### Latest Post
-[How to run Invidious in a FreeBSD Jail](/posts/invidious-freebsd)
+[Using Pihole as your DNS over TLS](/posts/pihole-dot)
