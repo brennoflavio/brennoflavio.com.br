@@ -1,6 +1,6 @@
 ---
 title: "Personal Linux Post Install"
-date: 2022-06-15T00:33:04-03:00
+date: 2024-02-01T09:33:04-03:00
 draft: false
 type: post
 ---
@@ -8,7 +8,6 @@ type: post
 Just some notes to to everytime I changed Linux distribution for some reason.
 
 ## Software Access
-- [Install Flatpak support](https://flatpak.org/setup/)
 - [Install Snap support](https://snapcraft.io/docs/installing-snapd)
 - [Install and configure AppImage Support](https://github.com/TheAssassin/AppImageLauncher/wiki/Install-on-Ubuntu-or-Debian)
 
@@ -17,64 +16,78 @@ Just some notes to to everytime I changed Linux distribution for some reason.
 ### Snaps
 - aws-cli
 - bitwarden
+- bruno
+- cheese
 - chromium
-- codium
+- code
 - dbeaver-ce
+- deja-dup
 - discord
+- electronplayer
+- element-desktop
 - ffmpeg
 - gimp
 - go
-- insomnia
+- google-cloud-cli
 - hugo
+- inkscape
+- libreoffice
+- newsflash
 - nextcloud-desktop-client
 - node
 - slack
+- spotify
+- teams-for-linux
+- telegram-desktop
 - terraform
-- youtube-dl
-- zoom-client
+- thunderbird
+- vlc
+- whatsapp-linux-app
 - xournalpp
+- zoom-client
 
-### Flatpaks
-- Flatseal
-- OBS Studio
-- Steam
-- FreeTube
-- RetroArch
 
 ### System packages
-- docker
-- docker-compose
-- flameshot
-- steam-devices
-- git
-- ansible
-- dkms
-- pwgen
-- adb 
-- fastboot
-- android-sdk-platform-tools-common
-- gdebi
+atuin
+curl
+direnv
+docker (from website)
+findutils
+gdebi
+git
+gnome-browser-connector
+gnome-calendar
+gnome-tweaks
+gnome-weather
+howdy (from github)
+input-remapper
+libmysqlclient-dev
+minecraft-launcher (from website)
+mongodb-compass (from website)
+piper
+pipx
+ppa-purge
+pwgen
+steam-launcher (from website)
+timeshift
 - [NVM](https://github.com/nvm-sh/nvm)
-- [Xone](https://github.com/medusalix/xone)
 - [input-remapper](https://github.com/sezanzeb/input-remapper)
-- [Upwork Desktop](https://www.upwork.com/ab/downloads/?os=linux)
-- [Google Chrome](https://www.google.com/chrome/index.html)
+- pipx
 
-### Python packages
-- black -> `sudo pip3 install black`
-- flake8 -> `sudo pip3 install flake8`
-
-### Node packages
-- serverless -> `sudo npm install -g serverless`
+### Pipx packages
+- black
+- flake8
+- argcomplete
+- notebook
+- poetry
+- pre-commit
 
 ### Gnome Extensions
 - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
-- [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 
 ## Configure System
 - settings -> keyboard -> shortcuts -> mouse3 (lateral button) to mute microphone
-- settings -> keyboard -> shortcuts -> printscreen to `flameshot gui`
 - Enable dark mode
 - Configure displays
 - Dock -> Disable unmounted volumes
@@ -84,9 +97,7 @@ Just some notes to to everytime I changed Linux distribution for some reason.
 - F3 -> `backslash`
 
 ### Possible solution for CS:GO disconnecting
-- [https://github.com/ValveSoftware/csgo-osx-linux/issues/2590](https://github.com/ValveSoftware/csgo-osx-linux/issues/2590)
-- sdr_spew_level 0
-- Disable wifi, keep only wired connection active
+- Turn off wifi when using ethernet connection
 
 ## Restore Backup
 - [Install and configure Timeshift](https://github.com/teejee2008/timeshift)
@@ -109,6 +120,5 @@ Folders do Ignore:
 - Login on Firefox and configure Extensions
 - Gnome Online Accounts configuration
 - Configure Thunderbird
-- [Fix Codium golang path](https://github.com/golang/vscode-go/issues/1411)
 - Generate VPN Keys if needed
 - Enjoy :)
