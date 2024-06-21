@@ -8,4 +8,4 @@
 [**View more**](/projects)
 
 ### Latest Post
-[Using Pihole as your DNS over TLS](/posts/pihole-dot)
+[Using a DSLR camera as your webcam on Linux](/posts/camera)
