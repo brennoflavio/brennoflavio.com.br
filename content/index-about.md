@@ -1,11 +1,11 @@
 ### Latest Projects
+[Daloopa](/projects#daloopa)
+
+[Scanly](/projects#scanly)
+
 [Crossmint](/projects#crossmint)
-
-[Classdojo](/projects#classdojo)
-
-[Safari.ai](/projects#safariai)
 
 [**View more**](/projects)
 
 ### Latest Post
-[Using a DSLR camera as your webcam on Linux](/posts/camera)
+[Simple fix for Rspamd false positives](/posts/rspamd-fix)
