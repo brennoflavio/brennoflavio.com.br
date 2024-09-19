@@ -26,6 +26,12 @@ pygmentsStyle = "monokai"
     url = "/projects/"
     weight = 3
 
+  [[menu.main]]
+    name = "GPG"
+    pre = "<span data-feather='key'></span>"
+    url = "/gpg/"
+    weight = 4
+
   [params]
     socialIcons = [
       {name = "instagram", url = "https://www.instagram.com/brennoflavio/"},
